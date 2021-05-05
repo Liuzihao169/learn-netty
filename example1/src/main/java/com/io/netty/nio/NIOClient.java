@@ -29,5 +29,8 @@ public class NIOClient {
 
         System.out.println("客户端发送完成...");
 
+        System.in.read();
+
+
     }
 }
